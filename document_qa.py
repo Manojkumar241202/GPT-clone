@@ -8,7 +8,7 @@ import chainlit as cl
 import os
 import openai
 text_splitter =RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=1000)
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "Give Your OPENAI API key"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 embeddings=OpenAIEmbeddings()
 
